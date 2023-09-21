@@ -26,39 +26,30 @@ class Solution(object):
                 biggestNum = num
 
         # initialize a bool array
-        boolArray = [False] * (biggestNum+1)
-        count = [0] * (biggestNum+1)
+        boolArray = [False] * (biggestNum + 1)
+        count = [0] * (biggestNum + 1)
 
         for num in nums:
             boolArray[num] = True
             count[num] += 1
 
-
         # iterate for 'nums' list
         i = 0
         while i < len(nums):
-            if boolArray[target - nums[i]] and count[target - nums[i]] == 1:
-                break
+            if boolArray[target - nums[i]]:
+                if target - nums[i] == nums[i]:
+                    if count[nums[i]] == 2:
+                        break
+                    else:
+                        continue
+                else:
+                    break
             i += 1
 
         j = 0
         while j < len(nums):
-            if nums[j] == target - nums[i]:
+            if nums[j] == target - nums[i] and j != i:
                 break
             j += 1
 
         return i, j
-
-
-
-        # initial attempt: Time Limit Exceeded
-        #
-        # i, j = 0, 0
-        #
-        # while i < len(nums):
-        #     while j < len(nums):
-        #         j = i
-        #         if nums[i] + nums[j] == target:
-        #             return i, j
-        #         j += 1
-        # i += 1
