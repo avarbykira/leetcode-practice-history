@@ -27,13 +27,17 @@ class Solution(object):
 
         # initialize a bool array
         boolArray = [False] * (biggestNum+1)
+        count = [0] * (biggestNum+1)
+
         for num in nums:
             boolArray[num] = True
+            count[num] += 1
+
 
         # iterate for 'nums' list
         i = 0
         while i < len(nums):
-            if boolArray[target - nums[i]]:
+            if boolArray[target - nums[i]] and count[target - nums[i]] == 1:
                 break
             i += 1
 
