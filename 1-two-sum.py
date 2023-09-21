@@ -19,7 +19,7 @@ Space complexity:
 class Solution(object):
     def twoSum(self, nums, target):
 
-        i, j = 0
+        i, j = 0, 0
 
         while i < len(nums):
             while j < len(nums):
