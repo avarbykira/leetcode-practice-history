@@ -1,7 +1,7 @@
 class Solution(object):
     def rev(self, num):
         string = str(num)
-        string = str[::-1]
+        string = string[::-1]
         return int(string)
     
     def checkPair(self, num1, num2):
