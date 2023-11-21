@@ -1,8 +1,8 @@
 class Solution(object):
     def rev(self, num):
-        str = str(num)
-        str = str[::-1]
-        return int(str)
+        string = str(num)
+        string = str[::-1]
+        return int(string)
     
     def checkPair(self, num1, num2):
         return (num1 + self.rev(num2)) == (num2 + self.rev(num1))
