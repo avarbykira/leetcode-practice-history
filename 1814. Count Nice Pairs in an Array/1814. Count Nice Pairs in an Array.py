@@ -16,8 +16,9 @@ class Solution(object):
         count = 0
         length = len(nums)
         for i in range(length):
-            for j in range(i, length):
+            for j in range(i+1, length):
                 if self.checkPair(nums[i], nums[j]):
                     count += 1
+
         return count
 
