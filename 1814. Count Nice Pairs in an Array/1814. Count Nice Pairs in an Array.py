@@ -41,9 +41,36 @@ class Solution(object):
         
         count = 0
         length = len(numsNew)
-        for i in range(length):
+        for i in range(length): # This loop can be improved
             for j in range(i+1, length):
                 if numsNew[i] == numsNew[j]:
                     count += 1
         return count
     
+    # Time Limit Exceeded
+
+# Hint 3: Keep a map storing the frequencies of values that you have seen so far. 
+# For each i, check if nums[i] is in the map. 
+# If it is, then add that count to the overall count. Then, increment the frequency of nums[i].
+
+# Third Approach
+class Solution(object):
+    def rev(self, num):
+        string = str(num)
+        string = string[::-1]
+        return int(string)
+
+    def countNicePairs(self, nums):
+        numsNew = []
+        for num in nums:
+            numsNew.append(num - self.rev(num))
+        
+        memory = []
+        for num in numsNew:
+            memory[num] += 1
+
+        count = 0
+        for i in range(len(memory)):
+            count += (memory[i] * (memory[i]-1)) / 2
+
+        return count
