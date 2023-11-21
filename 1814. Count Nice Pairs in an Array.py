@@ -14,10 +14,10 @@ class Solution(object):
         """
 
         count = 0
-        for num1 in nums:
-            for num2 in nums:
-                if self.checkPair(num1, num2):
+        length = len(nums)
+        for i in range(length):
+            for j in range(i, length):
+                if self.checkPair(nums[i], nums[j]):
                     count += 1
-
         return count
 
