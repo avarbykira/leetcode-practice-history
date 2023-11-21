@@ -61,16 +61,14 @@ class Solution(object):
         return int(string)
 
     def countNicePairs(self, nums):
-        numsNew = []
-        for num in nums:
-            numsNew.append(num - self.rev(num))
+        numsNew = [num - self.rev(num) for num in nums]
         
-        memory = []
-        for num in numsNew:
-            memory[num % 65536] += 1
-
+        # use a dictioinary to record if the num has occurred
+        memory = {}
         count = 0
-        for i in range(len(memory)):
-            count += (memory[i] * (memory[i]-1)) / 2
+        for num in numsNew:
+            if num in memory:
+                count += memory[num]
+            memory[num] = memory.get(num, 0) + 1
 
-        return count
+        return count % (10**9 + 7)
