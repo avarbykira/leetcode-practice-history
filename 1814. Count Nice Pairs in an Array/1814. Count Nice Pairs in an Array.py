@@ -67,7 +67,7 @@ class Solution(object):
         
         memory = []
         for num in numsNew:
-            memory[num] += 1
+            memory[num % 65536] += 1
 
         count = 0
         for i in range(len(memory)):
