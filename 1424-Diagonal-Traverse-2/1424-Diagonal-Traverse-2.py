@@ -9,12 +9,12 @@ class Solution(object):
             if len(list) > dim:
                 dim = len(list)
 
-        initialInnerList = [-1] * dim
-        listNew = [initialInnerList] * dim
+        listNew = [[-1 for _ in range(dim)] for _ in range(dim)]
+
+        i = 0
         for list in nums:
-            i = 0
+            j = 0
             for num in list:
-                j = 0
                 listNew[i][j] = num
                 j += 1
             i+= 1
