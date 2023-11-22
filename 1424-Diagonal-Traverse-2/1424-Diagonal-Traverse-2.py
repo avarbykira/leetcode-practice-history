@@ -16,12 +16,14 @@ class Solution(object):
         
         # add them to a new list by order
         listFinal = []
-        for turn in range(0, (len(nums)-1)*2):
+        for turn in range(0, 2*numsLen-1):
             for y in range(0, turn):
                 x = turn - y
-                if x<len(nums) and y<len(nums):
+                if x<numsLen and y<numsLen:
                     listFinal.append(listNew[x][y])
         
         # delete all -1
         while -1 in listFinal:
             listFinal.remove(-1)
+
+        return listFinal
