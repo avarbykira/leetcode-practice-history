@@ -17,7 +17,7 @@ class Solution(object):
         # add them to a new list by order
         listFinal = []
         for turn in range(0, 2*numsLen-1):
-            for y in range(0, turn):
+            for y in range(0, turn+1):
                 x = turn - y
                 if x<numsLen and y<numsLen:
                     listFinal.append(listNew[x][y])
