@@ -9,8 +9,7 @@ class Solution(object):
         for i in range(0, len(nums)-1):
             if nums[i+1] - nums[i] != diff:
                 return False
-            else:
-                return True
+        return True
 
 
     def checkArithmeticSubarrays(self, nums, l, r):
