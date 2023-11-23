@@ -19,12 +19,9 @@ class Solution(object):
         # len(l) == len(r), given by problem
 
         for i in range(0, len(l)):
-            if r[i] - l[i] == 1:
-                record.append(False)
-            else:
-                subarray = nums[l[i]:r[i]+1]
-                subarray.sort()
-                record.append(self.isArithmetic(subarray))
+            subarray = nums[l[i]:r[i]+1]
+            subarray.sort()
+            record.append(self.isArithmetic(subarray))
     
         return record
                 
