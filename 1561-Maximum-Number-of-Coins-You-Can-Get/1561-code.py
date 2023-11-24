@@ -10,6 +10,6 @@ class Solution(object):
         
         num = 0
         for i in range(0, (l/3)-1):
-            num += piles[l+2*i]
+            num += piles[l/3 + 2*i]
 
         return num
