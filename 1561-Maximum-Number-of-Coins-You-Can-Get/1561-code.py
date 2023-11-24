@@ -9,7 +9,7 @@ class Solution(object):
         piles.sort()
         
         num = 0
-        for i in range(0, (l/3)):
+        for i in range(0, l/3):
             num += piles[l/3 + 2*i]
 
         return num
