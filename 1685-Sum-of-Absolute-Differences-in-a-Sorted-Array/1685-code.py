@@ -8,13 +8,14 @@ class Solution(object):
         disList = []
         for i in range(0, l):
             for j in range(i, l):
-                disList.append(abs(nums[i]-nums[j]))
+                disList.append((i, j, abs(nums[i]-nums[j])))
         
         list = []
         for i in range(0, l):
             dis = 0
-            for j in range(0, l):
-                dis += disList[i*l - i*(i-1)/2 + j]
+            for d in disList:
+                if (d[0] == i or d[1] == i):
+                    dis += d[2]
             list.append(dis)
         
         return list
