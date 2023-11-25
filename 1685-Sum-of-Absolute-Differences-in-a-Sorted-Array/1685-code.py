@@ -15,18 +15,20 @@ class Solution(object):
             list.append(dis)
         
         return list
+
+# brute force
+class Solution(object):
+    def getSum(self, nums, i, j):
+        sum = 0
+        for index in range(i, j):
+            sum += nums[index]
+        return sum
     
-    class Solution(object):
-        def getSumAbsoluteDifferences(self, nums):
-            l = len(nums)
-            list = []
-            for i in range(0, l):
-                dis = 0
-                for j in range(0, l):
-                    if i<j:
-                        dis += nums[j] - nums[i]
-                    else:
-                        dis += nums[i] - nums[j]
-                list.append(dis)
-                
-            return list
+    def getSumAbsoluteDifferences(self, nums):
+        l = len(nums)
+        list = []
+        for i in range(0, l):
+            dis = (2*i-l)*nums[i] - self.getSum(nums, 0, i) + self.getSum(nums, i, l)
+            list.append(dis)
+            
+        return list
