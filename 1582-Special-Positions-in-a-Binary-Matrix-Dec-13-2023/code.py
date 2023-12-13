@@ -46,7 +46,9 @@ class Solution(object):
                         
         
         return count
-    
+
+# successfully submitted
+# runtime: 223 ms
 class Solution(object):
     def numSpecial(self, mat):
         r, c = len(mat), len(mat[0])
@@ -72,3 +74,73 @@ class Solution(object):
                 count += 1
         
         return count
+    
+# refined ver.
+# runtime: 142 ms
+class Solution(object):
+    def numSpecial(self, mat):
+        r, c = len(mat), len(mat[0])
+        points = []
+        mat_T = [[0 for _ in range(r)] for _ in range(c)]
+        for i in range(0, r):
+            for j in range(0, c):
+                mat_T[j][i] = mat[i][j]
+                if mat[i][j] == 1:
+                    points.append((i, j))
+        
+        count = 0
+        for point in points:
+            i, j = point[0], point[1]
+            if sum(mat[i]) == sum(mat_T[j]) == 1: # use sum() to reduce runtime
+                count += 1
+        
+        return count
+    
+# refine
+# runtime: 130 ms
+class Solution(object):
+    def numSpecial(self, mat):
+        r, c = len(mat), len(mat[0])
+        points = []
+        mat_T = list(zip(*mat)) # effectively swapping rows and columns
+        for i in range(0, r):
+            for j in range(0, c):
+                if mat[i][j] == 1:
+                    points.append((i, j))
+        
+        count = 0
+        for point in points:
+            i, j = point[0], point[1]
+            if sum(mat[i]) == sum(mat_T[j]) == 1: 
+                count += 1
+        
+        return count
+    
+
+# runtime: 132 ms
+class Solution(object):
+    def numSpecial(self, mat):
+        r, c = len(mat), len(mat[0])
+        points = []
+        mat_T = list(zip(*mat)) # effectively swapping rows and columns
+        for i in range(0, r):
+            for j in range(0, c):
+                if mat[i][j] == 1:
+                    points.append((i, j))
+        
+        count = 0
+        for point in points:
+            i, j = point[0], point[1]
+            if mat[i].count(1) == mat_T[j].count(1) == 1: 
+                count += 1
+        
+        return count
+
+# best solution
+class Solution(object):
+    def numSpecial(self, mat):
+        cnt = 0
+        l = list(zip(*mat))
+        for line in mat:
+            if line.count(1) == 1 and l[line.index(1)].count(1) == 1:cnt+=1
+        return cnt
