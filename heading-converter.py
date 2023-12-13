@@ -1,4 +1,7 @@
-HEADING = "1464. Maximum Product of Two Elements in an Array"
+from datetime import date
+
+
+HEADING = "1582. Special Positions in a Binary Matrix"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
@@ -11,6 +14,9 @@ HEADING = HEADING.replace(".", "")
 HEADING = HEADING.replace("(", "")
 HEADING = HEADING.replace(")", "")
 HEADING = HEADING.replace("%", "")
+
+# add today's date at the end of the string
+HEADING = HEADING + "-" + date.today().strftime("%b-%d-%Y")
 
 # print the result
 print(HEADING)
