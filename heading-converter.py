@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "1582. Special Positions in a Binary Matrix"
+HEADING = "2482. Difference Between Ones and Zeros in Row and Column"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
