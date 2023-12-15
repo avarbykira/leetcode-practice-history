@@ -8,3 +8,13 @@ https://x.com/AvarbyKira/status/1735235631863976326?s=20
 
 ---
 
+Day 10. One should know how language process data to beat more than 80% people in runtime. For this problem, using set() (hash table hidden behind) is better.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1436-Destination-City-Dec-15-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1735488770491969835?s=20
+
+---
+

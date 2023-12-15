@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "2482. Difference Between Ones and Zeros in Row and Column"
+HEADING = "1436. Destination City"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
