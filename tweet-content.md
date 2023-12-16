@@ -18,3 +18,14 @@ https://x.com/AvarbyKira/status/1735488770491969835?s=20
 
 ---
 
+Day 11. Easier way leads to more time on the road.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/242-Valid-Anagram-Dec-16-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1735937729220001904?s=20
+
+---
+
+

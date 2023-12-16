@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "1436. Destination City"
+HEADING = "242. Valid Anagram"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
