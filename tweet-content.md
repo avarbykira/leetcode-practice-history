@@ -28,4 +28,12 @@ https://x.com/AvarbyKira/status/1735937729220001904?s=20
 
 ---
 
+Day 12. Took so much time on this problem and failed to solve it by myself. QAQ
 
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/2353-Design-a-Food-Rating-System-Dec-17-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1736401929117602061?s=20
+
+---
