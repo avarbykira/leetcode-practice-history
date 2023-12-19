@@ -37,3 +37,24 @@ See my notes & code on this problem: https://github.com/avarbykira/leetcode-prac
 https://x.com/AvarbyKira/status/1736401929117602061?s=20
 
 ---
+
+Day 13. I believe our intern problem editor is back lol.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1913-Maximum-Product-Difference-Between-Two-Pairs-Dec-18-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1736654165542354981?s=20
+
+---
+
+Day 14. Easy peasy lemon squeezy. (time complexity sucks, but space complexity is insanely high lol)
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/661-Image-Smoother-Dec-19-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1736980850544349310?s=20
+
+---
+

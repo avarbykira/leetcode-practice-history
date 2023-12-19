@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "2353. Design a Food Rating System"
+HEADING = "661. Image Smoother"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
