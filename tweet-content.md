@@ -58,3 +58,13 @@ https://x.com/AvarbyKira/status/1736980850544349310?s=20
 
 ---
 
+Day 15. Don't abuse sort() function like a fool when directly searching is faster.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/2706-Buy-Two-Chocolates-Dec-20-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1737356516729164121?s=20
+
+---
+
