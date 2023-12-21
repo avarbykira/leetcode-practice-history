@@ -68,3 +68,13 @@ https://x.com/AvarbyKira/status/1737356516729164121?s=20
 
 ---
 
+Day 16. This can't be a medium challenge bro. Better call this 'Christmas Dessert' lol.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1637-Widest-Vertical-Area-Between-Two-Points-Containing-No-Points-Dec-21-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1737680648138326191?s=20
+
+---
+
