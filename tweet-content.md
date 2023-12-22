@@ -78,3 +78,15 @@ https://x.com/AvarbyKira/status/1737680648138326191?s=20
 
 ---
 
+Day 17. A tricky one. Hint is useful.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1422-Maximum-Score-After-Splitting-a-String-Dec-22-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1738105100550422602?s=20
+
+---
+
+
+

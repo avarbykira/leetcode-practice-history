@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "1637. Widest Vertical Area Between Two Points Containing No Points"
+HEADING = "1422. Maximum Score After Splitting a String"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
