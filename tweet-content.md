@@ -88,5 +88,15 @@ https://x.com/AvarbyKira/status/1738105100550422602?s=20
 
 ---
 
+Day 18. Single is better than couple.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1496-Path-Crossing-Dec-23-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1738600005173436629?s=20
+
+---
+
 
 

@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "1422. Maximum Score After Splitting a String"
+HEADING = "1496. Path Crossing"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
