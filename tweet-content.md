@@ -98,5 +98,15 @@ https://x.com/AvarbyKira/status/1738600005173436629?s=20
 
 ---
 
+Day 19. Xor is the key.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/1758-Minimum-Changes-To-Make-Alternating-Binary-String-Dec-24-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1738827712297648400?s=20
+
+---
+
 
 
