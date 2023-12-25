@@ -108,5 +108,13 @@ https://x.com/AvarbyKira/status/1738827712297648400?s=20
 
 ---
 
+Day 20! 1/5 of the #100DaysOfDSA Challenge! Got a really tricky one today and I failed to solve it on my own. Merry Xmas to you guys.
 
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/91-Decode-Ways-Dec-25-2023
+
+#100DaysOfCode #100DaysOfDSA
+
+https://x.com/AvarbyKira/status/1739198872495505484?s=20
+
+---
 

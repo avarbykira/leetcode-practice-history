@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "1758. Minimum Changes To Make Alternating Binary String"
+HEADING = "91. Decode Ways"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
