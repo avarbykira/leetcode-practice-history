@@ -118,3 +118,14 @@ https://x.com/AvarbyKira/status/1739198872495505484?s=20
 
 ---
 
+Day 21. im going on a trip for a week and this timeline is going to be suspended for a while.
+
+https://x.com/AvarbyKira/status/1739524425920524299?s=20
+
+---
+
+Day 22. Surprised to see ecursion has a pretty well efficiency. I used level order traversal at first but took too much time.
+
+See my notes & code on this problem: https://github.com/avarbykira/leetcode-practice-history/tree/main/938-Range-Sum-of-BST-Jan-08-2024
+
+#100DaysOfCode #100DaysOfDSA
