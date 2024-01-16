@@ -29,20 +29,12 @@ class RandomizedSet {
             return false;
         }
         else {
-            
-
             int index = memory.get(val);
-            memory.remove(val);
-
             list.set(index, list.get(list.size()-1));
-            memory.put(list.get(list.size()-1), index);
-            list.set(list.size()-1, val);
-
+            // wrong position
+            memory.put(list.get(index), index);
             list.remove(list.size()-1);
-            
-            
-
-
+            memory.remove(val); // change it to here passed. but why? because val and list.size()-1 may be the same!
             return true;
         }
     }
