@@ -10,3 +10,14 @@ class Solution {
         return 2*climbStairs(n-2);
     }
 }
+
+class Solution {
+    public int climbStairs(int n) {
+        int count = 1;
+        for(int i=1;i<=n/2;i++) {
+            int a = n-i*2;
+            count += a*(a+1)/2;
+        }
+        return count;
+    }
+}
