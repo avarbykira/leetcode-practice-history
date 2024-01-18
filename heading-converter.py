@@ -1,7 +1,7 @@
 from datetime import date
 
 
-HEADING = "380. Insert Delete GetRandom O(1)"
+HEADING = "70. Climbing Stairs"
 
 # delete all spaces in it
 HEADING = HEADING.replace(" ", "-")
